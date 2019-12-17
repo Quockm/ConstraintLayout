@@ -9,13 +9,12 @@
 
     <TextView
         android:background="#BB1818"
-        app:layout_constraintVertical_weight="1"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintRight_toLeftOf="@id/textView2"
-        app:layout_constraintHorizontal_weight="1"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintHorizontal_bias="0.1"
         android:id="@+id/textView1"
-        android:layout_width="0dp"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text=" view 1"
         android:textSize="30sp"
@@ -23,21 +22,6 @@
 
     </TextView>
 
-    <TextView
-        android:background="#00BCD4"
-        app:layout_constraintVertical_weight="1"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintLeft_toRightOf="@id/textView1"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintHorizontal_weight="2"
-        android:id="@+id/textView2"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:text=" view 2"
-        android:textSize="30sp"
-        >
-
-    </TextView>
 
 
 
